@@ -5,10 +5,10 @@ describe("Test", () => {
     cy.visit('/')
       .wait(20)
       .get('[data-cy="input"]')
-      .type('123')
+      .type('023')
 
     cy.get('[data-cy="p"]')
-      .contains('123xxxxxxxxx')
+      .contains('023xxxxxxxxx')
 
   })
 })
